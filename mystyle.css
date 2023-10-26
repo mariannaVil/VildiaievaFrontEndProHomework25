@@ -1,0 +1,24 @@
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  .slider {
+    flex: 1;
+    margin: 0 auto;
+    position: relative;
+  }
+  .buttons {
+    position: absolute;
+    display: flex;
+    justify-content: space-between; 
+    width: 50%; 
+  }
+  .prev {
+    margin-right: auto; 
+  }
+  .next {
+    margin-left: auto; 
+  }
